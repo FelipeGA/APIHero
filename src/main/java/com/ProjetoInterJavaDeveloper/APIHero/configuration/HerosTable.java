@@ -25,7 +25,7 @@ public class HerosTable {
 
         DynamoDB dynamoDB = new DynamoDB(client);
 
-        String tableName = "Tabela_Herois";
+        String tableName = "TabelaHerois";
 
 
         try {
