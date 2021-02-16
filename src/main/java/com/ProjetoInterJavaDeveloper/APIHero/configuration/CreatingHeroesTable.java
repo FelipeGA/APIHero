@@ -17,7 +17,7 @@ import static com.ProjetoInterJavaDeveloper.APIHero.constantes.HeroesConstant.*;
 
 @Configuration
 @EnableDynamoDBRepositories
-public class HerosTable {
+public class CreatingHeroesTable {
     public static void main(String[] args) {
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
                 .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(ENDPOINT_DYNAMO,REGION_DYNAMO))
